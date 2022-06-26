@@ -6,15 +6,24 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { 
+          id: "HTML5_skill", 
+          content: "HTML5", 
+          porcentage: "80%", 
+          value: "80"
+       },
+        { 
+          id: "CSS3_skill", 
+          content: "CSS3", 
+          porcentage: "75%", 
+          value: "75" 
+        },
         {
           id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          content: "Java",
+          porcentage: "70%",
+          value: "70"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -24,37 +33,30 @@ class About extends React.Component {
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          porcentage: "60%",
+          value: "60"
         },
         {
           id: "Wordpress_skill",
           content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
+          porcentage: "40%",
+          value: "40"
         }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Hi, I am currently an undergraduate student in the University of Puerto Rico in Mayagüez, majoring in Computer Science and Engineering. "
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
+            "I have worked in various areas including, front-end development with ReactJS, Project Management, CI/CD with Jenkins, Spring Framework, and Back-end development using Java."        },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I am interested in diving deeper with about Human-Computer Interaction, wanting to have more experience with Front-end development, UX/UI Design, and Backend-development.  "
         }
       ]
     };
@@ -110,7 +112,7 @@ class About extends React.Component {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
+                    <div className="about-me pt-4 pt-md-0 about-me-text">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
